@@ -1,0 +1,312 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  }
+  a {
+  text-decoration: none;
+  list-style: none;
+  color: #fff;
+  }
+  ul {
+  list-style: none;
+  }
+  main {
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+  }
+  .h1-el-sauco {
+  display: none;
+  }
+/* -------------------------BODY------------------------- */
+  body {
+  background-color: #43618f;
+  color: #fff;
+  width: 100%;
+  }
+/*----------------RESPONSIVE 845px-----------------------------*/
+  @media (max-width: 845px) {
+  h1{display:none;}
+  h3 {
+  text-align: center;
+  padding: 0;
+  margin: 10px;
+  }
+  .art-exposicion-san-luis {
+  flex-direction: column;
+  flex-wrap: wrap;
+  text-align: justify;
+  align-items: center;
+  }
+  .art-nuevos-ejemplares {
+  flex-direction: column;
+  flex-wrap: wrap;
+  text-align: justify;
+  align-items: center;
+  }
+  .art-ejemplares-enviados {
+  flex-direction: column;
+  flex-wrap: wrap;
+  text-align: justify;
+  align-items: center;
+  }
+  footer{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  }
+  .redes {
+  text-align: center;
+  width: 100vw;
+  }
+  .sitio {
+  text-align: center;
+  width: 100vw;
+  }
+  .ubicacion {
+  text-align: center;
+  width: 100vw;
+  }
+  .foto-la-raza {
+  width: 50%;
+  }
+  .foto-el-criadero {
+  width: 50%;
+  }
+  .ejemplares{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  }
+  }
+/*----------------RESPONSIVE 525px-----------------------------*/
+  @media (max-width: 565px) {
+  .h1-el-sauco {
+  display: none;
+  }
+  h1{display: none;}
+  h3 {
+  margin: 10px;
+  text-align: center;
+  }
+  .imagen-exposicion-san-luis {
+  width: 100%;
+  }
+  .imagen-nuevos-ejemplares {
+  width: 100%;
+  }
+  .imagen-avion {
+  width: 100%;
+  }
+  .barra-de-navegacion {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  gap: 5px;
+  }
+  .barra-de-navegacion li {
+  margin: 0;
+  }
+  .nav-bar {
+  width: 100%;
+  justify-content: center;
+  }
+  .art-exposicion-san-luis {
+  flex-direction: column;
+  flex-wrap: wrap;
+  text-align: justify;
+  width: 100%;
+  }
+  .art-nuevos-ejemplares {
+  flex-direction: column;
+  flex-wrap: wrap;
+  text-align: justify;
+  width: 100%;
+  }
+  .art-ejemplares-enviados {
+  flex-direction: column;
+  flex-wrap: wrap;
+  text-align: justify;
+  width: 100%;
+  }
+  .foto-la-raza {
+  width: 70%;
+  }
+  .foto-el-criadero {
+  width: 70%;
+  }
+  .imagen-avion{
+  width: 74vh;
+  }
+  }
+/*----------------MEDIA QUERYS---------------------------------*/
+/*----------------RESPONSIVE 524px-----------------------------*/
+  @media (max-width: 524px) {
+  
+  .valkiria {
+  width: 100%;
+  }
+  .valkiria .foto-valkiria {
+  width: 100%;
+  }
+  .abiel {
+  width: 100vh;
+  }
+  .foto-abiel {
+  width: 100%;
+  }
+  .india {
+  width: 100%;
+  }
+  .foto-india {
+  width: 100%;
+  }
+  .imagen-avion{
+  width: 100%;
+  }
+  figure{
+  width: 100%;
+  }
+  h1{display: none;}
+  }
+/* -------------------------EXPOSICIONES------------------------- */
+  .parrafo-exp-1 {
+  text-align: start;
+  }
+  .video {
+  align-items: center;
+  align-content: center;
+  width: 70vw;
+  height: 50vh;
+  }
+/*-------------------------HOME------------------------- */
+  .art-exposicion-san-luis {
+  display: flex;
+  width: 100%;
+  text-align: justify;
+  align-items: center;
+  }
+  .art-nuevos-ejemplares {
+  display: flex;
+  width: 100%;
+  text-align: justify;
+  align-items: center;
+  }
+  .art-ejemplares-enviados {
+  display: flex;
+  width: 100%;
+  text-align: justify;
+  align-items: center;
+  }
+  .imagen-avion {
+  width: 53vh;
+  }
+/*-------------------------HISTORIA------------------------- */
+  .parrafo-el-criadero {
+  text-align: justify;
+  }
+  .parrafo-la-raza {
+  text-align: justify;
+  }
+  p {
+  font-size: 1rem;
+  padding: 10px;
+  }
+  .articulo-la-raza {
+  flex-direction: column;
+  width: 100%;
+  }
+  .foto-la-raza {
+  width: 50%;
+  }
+  .articulo-el-criadero {
+  flex-direction: column;
+  width: 100%;
+  }
+  .foto-el-criadero {
+  width: 50%;
+  }
+/* -------------------------ENVIOS------------------------- */
+  .envios-internacionales {
+  display: flex;
+  padding: 30px;
+  }
+  .buscar-envios {
+  display: flex;
+  }
+  @media (max-width:320px){
+  .nuevos-ejemplares{
+  width: 100%;
+  }
+  .imagen-avion{
+  width: 100%;
+  }
+  .exposicion-san-luis{
+  width: 100%;
+  }
+  .foto-la-raza{
+  width: 100%;
+  }
+  .foto-el-criadero{
+  width: 100%;
+  }
+  .video{
+  width: 100%;
+  height: 100%;
+  }
+  }
+/* -------------------------FOOTER------------------------- */
+  footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  text-align: center;
+  padding-top: 5%;
+  }
+
+  .sitio {
+  width: 300px;
+  height: 150px;
+  padding: 20px;
+  }
+
+  .ubicacion {
+  width: 300px;
+  height: 100px;
+  padding: 15px;
+  }
+  .redes {
+  width: 300px;
+  height: 150px;
+  padding-left: 30px;
+  }
+/* -------------------------HEADER------------------------- */
+  header {
+  background-color: #fff;
+  display: flex;
+  color: #43618f;
+  display: flex;
+  justify-content: space-between;
+  }
+  h2 {
+  padding-top: 10px;
+  text-align: center;
+  }
+  h3 {
+  text-align: center;
+  }
+  .barra-de-navegacion a {
+  flex-wrap: wrap;
+  justify-content: end;
+  color: #43618f;
+  padding: 10px;
+  align-items: center;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  }
+  .barra-de-navegacion li {
+  display: inline-flex;
+  margin-top: 20px;
+  }
+/*# sourceMappingURL=styles.css.map */
