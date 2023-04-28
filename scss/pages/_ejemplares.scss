@@ -2,7 +2,7 @@ h2{text-align: center;}
 .ejemplares{
         display: flex;
         flex-wrap: wrap;
-        flex-direction: column;
+        flex-direction: row;
 }
 .parrafo-ejemplares{
     text-align: justify;
@@ -59,6 +59,19 @@ h2{text-align: center;}
         height:250px;
         object-fit: contain;
 }
+
+.puna{
+        width:100%;
+        height:250px;
+        object-fit: contain;
+}
+
+.coraje{
+        width:100%;
+        height:250px;
+        object-fit: contain;
+}
+
 @media (max-width:845px){
 
 h2{
@@ -67,7 +80,7 @@ h2{
     }    
 .ejemplares{
         display: flex;
-        flex-direction: column;
+        flex-direction: columrow;
     }
 .valkiria {
         width: 80%;
@@ -77,12 +90,12 @@ h2{
         margin-bottom:20px;
         }
     
-    .valkiria img{
+.valkiria img{
         width:50%;
         height:50%;
     }
     
-    .numa {
+.numa {
         width: 80%;
         height: 50%;
         background-color:white;
@@ -90,12 +103,12 @@ h2{
         margin-bottom:20px;
         }
     
-    .numa img{
+.numa img{
         width:80%;
         height: 50%;
     }
     
-    .india{
+.india{
         width: 80%;
         height: 50%;
         background-color:white;
@@ -103,11 +116,11 @@ h2{
         margin-bottom:20px;
     }
     
-    .india img{
+.india img{
         width:80%;
         height: 50%;
     }
-    .arya{
+.arya{
         width: 100%;
         height: 50%;
         background-color:white;
@@ -115,10 +128,22 @@ h2{
         margin-bottom:20px;
     }
     
-    .arya img{
+.arya img{
         width:80%;
         height: 50%;
     }
+
+.puna{
+        width:100%;
+        height:250px;
+        object-fit: contain;
+}
+
+.coraje{
+        width:100%;
+        height:250px;
+        object-fit: contain;
+}
 
 @media (max-width: 524px) {
     
@@ -145,7 +170,7 @@ h2{
         color:#43618f;
         margin-bottom: 20px;
     }
-.foto-numa {
+.numa img {
     width: 100%;
     }
 .india {
@@ -154,12 +179,23 @@ h2{
         color:#43618f;
         margin-bottom:20px;
     }
-.foto-india {
+.india img {
         width: 100%;
     }
 .imagen-avion{
         width: 100%;
     }
+.puna{
+        width:100%;
+        background-color: white;
+        color: #43618f;
+        margin-bottom:20px;
+.puna img{
+    width:100%;
+}
+}
+
+
 figure{
         width: 100%;
     }
@@ -190,6 +226,13 @@ h1{
 }
 .india img{
         width:80%
+}
+
+.numa{
+    width:100%;
+}
+.coraje{
+    width:100%;
 }
 }
 }
