@@ -255,6 +255,20 @@ h2 {
   object-fit: contain;
 }
 
+.coraje {
+  width: 25%;
+  height: fit-content;
+  background-color: white;
+  color: #43618f;
+  margin: 5px;
+}
+
+.coraje img {
+  width: 100%;
+  height: 250px;
+  object-fit: contain;
+}
+
 @media (max-width: 845px) {
   h2 {
     text-align: center;
@@ -410,6 +424,15 @@ h2 {
     margin-bottom: 20px;
   }
   .puna img {
+    width: 100%;
+  }
+  .arya {
+    width: 100%;
+    background-color: white;
+    color: #43618f;
+    margin-bottom: 20px;
+  }
+  .arya img {
     width: 100%;
   }
   .arya {
