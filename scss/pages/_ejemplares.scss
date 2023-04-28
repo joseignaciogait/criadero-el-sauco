@@ -73,19 +73,6 @@ h2{text-align: center;}
     object-fit: contain;
 }
 
-.coraje {
-    width: 33.3%;
-    height:fit-content;
-    background-color:white;
-    color:#43618f;
-    margin:5px;
-}
-
-.coraje{
-        width:100%;
-        height:250px;
-        object-fit: contain;
-}
 
 @media (max-width:845px){
 
@@ -106,7 +93,7 @@ h2{
         }
     
 .valkiria img{
-        width:50%;
+        width:80%;
         height:50%;
     }
     
@@ -136,7 +123,7 @@ h2{
         height: 50%;
     }
 .arya{
-        width: 100%;
+        width: 80%;
         height: 50%;
         background-color:white;
         color:#43618f;
@@ -149,15 +136,65 @@ h2{
     }
 
 .puna{
-        width:100%;
-        height:250px;
-        object-fit: contain;
-}
+        width: 80%;
+        height: 50%;
+        background-color:white;
+        color:#43618f;
+        margin-bottom:20px;
+    }
+.puna img{
+        width:80%;
+        height: 50%;
+    }
 
 .coraje{
+        width: 80%;
+        height: 50%;
+        background-color:white;
+        color:#43618f;
+        margin-bottom:20px;
+    }
+.coraje img{
+        width:80%;
+        height: 50%;
+    } 
+
+@media (max-width:565px){
+.ejemplares{
+            display: flex;
+            flex-direction: column;
+    }
+.valkiria{
+            width:100%;
+    }
+.valkiria img{
+            width:80%
+    }
+.numa{
+            width:100%;
+    }
+.numa img{
+            width:80%
+    }
+    
+.india{
+            width:100%;
+    }
+.india img{
+            width:80%
+    }
+    
+.puna{
         width:100%;
-        height:250px;
-        object-fit: contain;
+}
+.puna img{
+        width:80%
+}
+.coraje{
+    width:100%;
+}
+.coraje img{
+    width:80%
 }
 
 @media (max-width: 524px) {
@@ -176,8 +213,8 @@ h2{
         color:#43618f;
         margin-bottom:20px;
     }
-.valkiria .foto-valkiria {
-    width: 80%;
+.valkiria img {
+    width: 100%;
     }
 .numa {
         width: 100%;
@@ -197,57 +234,31 @@ h2{
 .india img {
         width: 100%;
     }
-.imagen-avion{
+
+.puna {
+        width: 100%;
+        background-color:white;
+        color:#43618f;
+        margin-bottom:20px;
+    }
+.puna img {
         width: 100%;
     }
-.puna{
-        width:100%;
-        background-color: white;
-        color: #43618f;
+.arya {
+        width: 100%;
+        background-color:white;
+        color:#43618f;
         margin-bottom:20px;
-.puna img{
-    width:100%;
-}
-}
+    }
+.arya img {
+        width: 100%;
+        }
 
-
+}
 figure{
         width: 100%;
     }
 h1{
     display: none;}
     }
-
-@media (max-width:565px){
-.ejemplares{
-        display: flex;
-        flex-direction: column;
-}
-.valkiria{
-        width:100%;
-}
-.valkiria img{
-        width:80%
-}
-.numa{
-        width:100%;
-}
-.numa img{
-        width:80%
-}
-
-.india{
-        width:100%;
-}
-.india img{
-        width:80%
-}
-
-.numa{
-    width:100%;
-}
-.coraje{
-    width:100%;
-}
-}
 }
