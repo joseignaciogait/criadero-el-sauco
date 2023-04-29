@@ -35,6 +35,10 @@ main {
   text-align: center;
 }
 
+h2 {
+  padding-bottom: 10px;
+}
+
 .art-exposicion-san-luis {
   display: flex;
   width: 100%;
@@ -129,6 +133,14 @@ main {
     width: 100%;
   }
 }
+.articulo-la-raza img {
+  width: 500px;
+}
+
+.articulo-el-criadero img {
+  height: 350px;
+}
+
 @media (max-width: 845px) {
   .foto-la-raza {
     width: 50%;
@@ -138,10 +150,10 @@ main {
   }
 }
 @media (max-width: 565px) {
-  .foto-la-raza {
+  .articulo-la-raza img {
     width: 70%;
   }
-  .foto-el-criadero {
+  .articulo-el-criadero img {
     width: 70%;
   }
 }
@@ -162,14 +174,14 @@ main {
     text-align: justify;
     width: 100%;
   }
-  .foto-la-raza {
+  .articulo-la-raza img {
     width: 100%;
   }
   .articulo-el-criadero {
     flex-direction: column;
     width: 100%;
   }
-  .foto-el-criadero {
+  .articulo-el-criadero img {
     width: 100%;
     height: 50%;
   }
@@ -182,6 +194,7 @@ h2 {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
+  padding-left: 200px;
 }
 
 .parrafo-ejemplares {
@@ -471,6 +484,35 @@ h2 {
     display: none;
   }
 }
+p {
+  padding: 20px;
+}
+
+.pais {
+  padding: 10px;
+}
+
+.provincia-estado {
+  padding: 10px;
+}
+
+.nombre-y-apellido {
+  padding: 10px;
+}
+
+.telefono {
+  padding: 10px;
+}
+
+.email {
+  padding: 10px;
+  padding-bottom: 10px;
+}
+
+h3 {
+  padding: 20px;
+}
+
 header {
   background-color: #fff;
   display: flex;
