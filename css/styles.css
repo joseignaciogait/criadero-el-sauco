@@ -119,13 +119,13 @@ main {
   .exposicion-san-luis {
     width: 100%;
   }
+  .exposicion-san-luis img {
+    width: 100%;
+  }
   .nuevos-ejemplares {
     width: 100%;
   }
   .imagen-avion {
-    width: 100%;
-  }
-  .exposicion-san-luis {
     width: 100%;
   }
 }
