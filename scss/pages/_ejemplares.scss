@@ -91,7 +91,9 @@ h2{
     }    
 .ejemplares{
         display: flex;
-        flex-direction: columrow;
+        flex-direction:row;
+        flex-wrap: wrap;
+        flex-direction: column;
     }
 .valkiria {
         width: 80%;
