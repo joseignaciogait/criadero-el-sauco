@@ -86,6 +86,16 @@ h2{text-align: center;}
     object-fit: contain;
 }
 
+@media (min-width:656px) {
+
+    main{
+        align-items: center;
+    }
+    
+}
+
+
+
 @media (max-width:845px){
 
 h2{
