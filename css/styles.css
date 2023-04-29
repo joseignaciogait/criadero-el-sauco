@@ -194,7 +194,6 @@ h2 {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-  padding-left: 200px;
 }
 
 .parrafo-ejemplares {
@@ -414,6 +413,7 @@ h2 {
   .ejemplares {
     display: flex;
     flex-direction: column;
+    margin: 0;
   }
   .valkiria {
     width: 100%;
