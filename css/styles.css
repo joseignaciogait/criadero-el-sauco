@@ -275,7 +275,7 @@ h2 {
     object-fit: contain;
   }
 }
-@media (max-width: 1500px) and (max-width: 845px) {
+@media (max-width: 845px) {
   h2 {
     text-align: center;
     margin: 10px;
@@ -394,7 +394,7 @@ h2 {
     width: 80%;
   }
 }
-@media (max-width: 565px) and (max-width: 524px) {
+@media (max-width: 524px) {
   h2 {
     text-align: center;
     margin: 10px;
@@ -458,20 +458,21 @@ h2 {
     width: 100%;
   }
 }
-@media (max-width: 565px) {
-  .coraje {
-    width: 100%;
-    background-color: white;
-    color: #43618f;
-    margin-bottom: 20px;
-  }
-  .coraje img {
-    width: 100%;
-  }
-  h1 {
-    display: none;
-  }
+.coraje {
+  width: 100%;
+  background-color: white;
+  color: #43618f;
+  margin-bottom: 20px;
 }
+
+.coraje img {
+  width: 100%;
+}
+
+h1 {
+  display: none;
+}
+
 p {
   padding: 20px;
 }

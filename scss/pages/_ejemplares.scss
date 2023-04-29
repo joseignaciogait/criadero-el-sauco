@@ -84,7 +84,7 @@ h2{text-align: center;}
     height:250px;
     object-fit: contain;
 }
-
+}
 
 @media (max-width:845px){
 h2{
@@ -163,7 +163,6 @@ h2{
         height: 50%;
     }
 }
-}
 @media (max-width:565px){
 .ejemplares{
             display: flex;
@@ -207,6 +206,7 @@ h2{
 }
 .arya img{
     width:80%
+}
 }
 @media (max-width: 524px) {
     
@@ -285,4 +285,3 @@ h2{
     }
 h1{
     display: none;}
-}
