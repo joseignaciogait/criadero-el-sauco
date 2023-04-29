@@ -3,6 +3,7 @@ h2{text-align: center;}
         display: flex;
         flex-wrap: wrap;
         flex-direction: row;
+        text-align: center;
 }
 .parrafo-ejemplares{
     text-align: justify;
@@ -95,6 +96,7 @@ h2{
 .ejemplares{
         display: flex;
         flex-direction: columrow;
+        text-align: center;
     }
 .valkiria {
         width: 80%;
