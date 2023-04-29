@@ -1,4 +1,6 @@
 h2{text-align: center;}
+@media(max-width:1500px){
+
 .ejemplares{
         display: flex;
         flex-wrap: wrap;
@@ -160,6 +162,7 @@ h2{
         width:80%;
         height: 50%;
     }
+}
 }
 @media (max-width:565px){
 .ejemplares{
