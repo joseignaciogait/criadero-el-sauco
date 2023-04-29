@@ -155,9 +155,11 @@ main {
   p {
     font-size: 1rem;
     padding: 10px;
+    text-align: justify;
   }
   .articulo-la-raza {
     flex-direction: column;
+    text-align: justify;
     width: 100%;
   }
   .foto-la-raza {
@@ -348,7 +350,7 @@ h2 {
     height: 50%;
   }
 }
-@media (max-width: 845px) and (max-width: 565px) {
+@media (max-width: 565px) {
   .ejemplares {
     display: flex;
     flex-direction: column;
@@ -391,7 +393,7 @@ h2 {
     width: 80%;
   }
 }
-@media (max-width: 845px) and (max-width: 565px) and (max-width: 524px) {
+@media (max-width: 565px) and (max-width: 524px) {
   h2 {
     text-align: center;
     margin: 10px;
@@ -455,8 +457,14 @@ h2 {
     width: 100%;
   }
 }
-@media (max-width: 845px) and (max-width: 565px) {
-  figure {
+@media (max-width: 565px) {
+  .coraje {
+    width: 100%;
+    background-color: white;
+    color: #43618f;
+    margin-bottom: 20px;
+  }
+  .coraje img {
     width: 100%;
   }
   h1 {

@@ -3,7 +3,6 @@ h2{text-align: center;}
         display: flex;
         flex-wrap: wrap;
         flex-direction: row;
-        text-align: center;
 }
 .parrafo-ejemplares{
     text-align: justify;
@@ -82,6 +81,8 @@ h2{text-align: center;}
     height:250px;
     object-fit: contain;
 }
+
+
 @media (max-width:845px){
 h2{
         text-align: center;
@@ -90,7 +91,6 @@ h2{
 .ejemplares{
         display: flex;
         flex-direction: columrow;
-        text-align: center;
     }
 .valkiria {
         width: 80%;
@@ -158,7 +158,8 @@ h2{
 .coraje img{
         width:80%;
         height: 50%;
-    } 
+    }
+}
 @media (max-width:565px){
 .ejemplares{
             display: flex;
@@ -269,7 +270,15 @@ h2{
         width: 100%;
         }
 }
+.coraje {
+    width: 100%;
+    background-color:white;
+    color:#43618f;
+    margin-bottom:20px;
+    }
+.coraje img {
+    width: 100%;
+    }
 h1{
     display: none;}
-    }
 }
