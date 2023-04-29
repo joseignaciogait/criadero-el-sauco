@@ -286,6 +286,11 @@ h2 {
   object-fit: contain;
 }
 
+@media (max-width: 1500px) {
+  .ejemplares {
+    margin-left: 200px;
+  }
+}
 @media (max-width: 845px) {
   h2 {
     text-align: center;

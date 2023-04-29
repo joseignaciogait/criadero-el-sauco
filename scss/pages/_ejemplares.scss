@@ -3,8 +3,7 @@ h2{text-align: center;}
         display: flex;
         flex-wrap: wrap;
         flex-direction: row;
-        padding-left: 200px;
-}
+    }
 .parrafo-ejemplares{
     text-align: justify;
     padding: 10px;
@@ -82,6 +81,13 @@ h2{text-align: center;}
     height:250px;
     object-fit: contain;
 }
+
+@media(max-width:1500px){
+    .ejemplares{
+    margin-left:200px;
+    }
+}
+
 
 
 @media (max-width:845px){
@@ -214,7 +220,7 @@ h2{
 .ejemplares{
         display: flex;
         flex-direction: column;
-        margin:0
+        margin:0;
     }    
 .valkiria {
         width: 100%;
@@ -284,3 +290,4 @@ h2{
 h1{
     display: none;}
 }
+
