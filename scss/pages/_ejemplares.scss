@@ -1,9 +1,10 @@
+@media(max-width:1200px){
+
 h2{text-align: center;}
 .ejemplares{
         display: flex;
         flex-wrap: wrap;
         flex-direction: row;
-        padding-left: 200px;
 }
 .parrafo-ejemplares{
     text-align: justify;
@@ -82,7 +83,7 @@ h2{text-align: center;}
     height:250px;
     object-fit: contain;
 }
-
+}
 
 @media (max-width:845px){
 h2{
@@ -91,9 +92,7 @@ h2{
     }    
 .ejemplares{
         display: flex;
-        flex-direction:row;
-        flex-wrap: wrap;
-        flex-direction: column;
+        flex-direction: row;
     }
 .valkiria {
         width: 80%;
