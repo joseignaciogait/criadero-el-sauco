@@ -1,68 +1,83 @@
-<!DOCTYPE html >
+<!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=, initial-scale=1.0" />
     <title>El Sauco Dogos Argentinos-Envios</title>
-    <link rel="stylesheet" href="../css/styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
-
+    <link rel="stylesheet" href="../css/styles.css" />
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
   </head>
   <body>
     <header id="header-envios">
-      <img class="logo" src="../img/logo.jpg" height="100" width="100" alt="logo">
+      <img
+        class="logo"
+        src="../img/logo.jpg"
+        height="100"
+        width="100"
+        alt="logo"
+      />
       <div class="nav-bar">
-      <nav>
-      <ul class="barra-de-navegacion">
-        <li><a href="../index.html">Home</a></li>
-        <li><a href="./historia.html">Historia </a></li>
-        <li><a href="./ejemplares.html">Ejemplares</a></li>
-        <li><a href="./exposisiones.html">Exposiciones</a></li>
-        <li><a href="./envios.html">Envios</a></li>
-      </ul>
-      </nav>
+        <nav>
+          <ul class="barra-de-navegacion">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="./historia.html">Historia </a></li>
+            <li><a href="./ejemplares.html">Ejemplares</a></li>
+            <li><a href="./exposisiones.html">Exposiciones</a></li>
+            <li><a href="./envios.html">Envios</a></li>
+          </ul>
+        </nav>
       </div>
     </header>
     <main class="envios">
       <h1 class="h1-el-sauco">El Sauco Dogos Argentinos</h1>
       <h2 class="animate__bounceIn">Envios</h2>
       <h3>¿Donde esta mi perro?</h3>
-      <section class="buscar envio">
       <label class="n°-envio" for="nº-envio">Nº Envio</label>
-      <input type="text" id="nº-envio">
-      <input class="boton-consultar-ubicacion" type="submit" value="CONSULTAR UBICACION">
+      <input type="text" id="nº-envio" />
+      <input
+        class="boton-consultar-ubicacion"
+        type="submit"
+        value="CONSULTAR UBICACION"
+      />
       <p>
-      
         Nuestro criadero se encuentra en Cordoba Capital y hace envios tanto al
-        Interior como al exterior, con las mejores empresas de transporte canino, confiables y puntuales.
-        Los ejemplares cuentan con <strong> microchip, pedigree,</strong> y todos la documentacion legal
+        Interior como al exterior, con las mejores empresas de transporte
+        canino, confiables y puntuales. Los ejemplares cuentan con
+        <strong> microchip, pedigree,</strong> y todos la documentacion legal
       </p>
-    <section>
-    <section class="envios internacionales">
-      <h2>Cotizacion de envios</h2>
-      <div class="pais">
-      <label class="pais" for="pais">Pais:</label>
-      <input type="text" id="pais">
-    </div>
-      <div class="provincia-estado">
-        <label for="provincia/estado">Provincia/Estado:</label>
-        <input type="text" id="provincia/estado">
+      <section class="envios-internacionales">
+        <h2>Cotizacion de envios</h2>
+        <div class="contenedor-envios">
+        <div class="pais formulario">
+          <label class="pais" for="pais">Pais:</label>
+          <input type="text" id="pais" />
+        </div>
+        <div class="provincia-estado formulario">
+          <label for="provincia/estado">Provincia/Estado:</label>
+          <input type="text" id="provincia/estado" />
+        </div>
+        <div class="nombre-y-apellido formulario">
+          <label for="nombre-y-apellido">Nombre y Apellido:</label>
+          <input type="text" id="nombre-y-apellido" />
+        </div>
+        <div class="telefono formulario">
+          <label for="telefono">Telefono:</label>
+          <input type="tel" id="telefono" />
+        </div>
+        <div class="e-mail formulario">
+          <label for="e-mail">E-mail:</label>
+          <input type="email" id="email" />
+        </div>
       </div>
-      <div class="nombre-y-apellido">
-        <label for="nombre-y-apellido">Nombre y Apellido:</label>
-        <input type="text" id="nombre-y-apellido">
-      </div>
-      <div class="telefono">
-        <label for="telefono">Telefono:</label>
-        <input type="tel" id="telefono">
-      </div>
-      <div class="e-mail">
-        <label for="e-mail">E-mail:</label>
-        <input type="email" id="email">
       </section>
-      </div class="boton-cotizacion">
-      <input btn="SOLICITAR COTIZACION" type="submit" value="SOLICITAR COTIZACION">
+      <div class="boton-cotizacion">
+        <input
+          btn="SOLICITAR COTIZACION"
+          type="submit"
+          value="SOLICITAR COTIZACION"
+        />
+      </div>
     </main>
     <footer>
       <div class="sitio">
@@ -75,20 +90,36 @@
           <li><a href="#header-envios">Envios</a></li>
         </ul>
       </div>
-      <div class="ubicacion"> 
+      <div class="ubicacion">
         <ul class="barra-de-navegacion-inferior">
-        <li>Ubicacion</li>
-        <li>Cordoba, Capital-Argentina</li>
+          <li>Ubicacion</li>
+          <li>Cordoba, Capital-Argentina</li>
         </ul>
       </div>
       <div class="redes">
-        <h4> Encontranos tambien en:</h4>
-      <ul>
-      <li><span>Facebook: </span><a href="https://www.facebook.com/criaderoelsauco">El Sauco-Dogos Argentinos</a></li>
-      <li><span>Instagram: </span><a href="https://www.instagram.com/criaderoelsauco/">@elsaucocriadero</a></li>
-      <li><span>Whatsapp: </span><a href="https://api.whatsapp.com/send?phone=5493516221583&text=Hola%20queria%20consultar%20sobre">+5493516221583</a></li>
-      </ul>
+        <h4>Encontranos tambien en:</h4>
+        <ul>
+          <li>
+            <span>Facebook: </span
+            ><a href="https://www.facebook.com/criaderoelsauco"
+              >El Sauco-Dogos Argentinos</a
+            >
+          </li>
+          <li>
+            <span>Instagram: </span
+            ><a href="https://www.instagram.com/criaderoelsauco/"
+              >@elsaucocriadero</a
+            >
+          </li>
+          <li>
+            <span>Whatsapp: </span
+            ><a
+              href="https://api.whatsapp.com/send?phone=5493516221583&text=Hola%20queria%20consultar%20sobre"
+              >+5493516221583</a
+            >
+          </li>
+        </ul>
       </div>
     </footer>
   </body>
-  </html>
+</html>

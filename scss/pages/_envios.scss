@@ -1,30 +1,30 @@
 p{
     padding:20px;
 }
-.pais{
-    padding: 10px;
-}
-.provincia-estado{
-    padding: 10px;
-}
-
-.nombre-y-apellido{
-    padding: 10px;
-}
-
-.telefono{
-    padding:10px
-}
-.email{
-    padding: 10px;
-    padding-bottom: 10px;
-}
-
 h3{
     padding: 20px
 
 }
+.envios-internacionales{
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+.contenedor-envios{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    gap: 10px;
+}
+.formulario{
+    display: flex;
+    justify-content: space-between;
+    
+}
 
+.boton-cotizacion{
+    margin-top: 10px;
+}
 @media(max-width:845px){
 
     p{
