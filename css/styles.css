@@ -70,7 +70,7 @@ main {
 }
 
 .imagen-avion {
-  width: 42vh;
+  width: 52vh;
 }
 
 @media (max-width: 845px) {
@@ -191,7 +191,7 @@ h2 {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-  align-content: center;
+  justify-content: center;
 }
 
 .parrafo-ejemplares {
@@ -512,6 +512,16 @@ h3 {
 }
 
 @media (max-width: 845px) {
+  .contenedor-envios {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+  }
+  .envios-internacionales {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
   p {
     padding: 20px;
   }
@@ -539,18 +549,14 @@ h3 {
   .pais {
     padding: 10px;
   }
-  .provincia-estado {
-    padding: 10px;
+  .envios-internacionales {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
-  .nombre-y-apellido {
-    padding: 10px;
-  }
-  .telefono {
-    padding: 10px;
-  }
-  .email {
-    padding: 10px;
-    padding-bottom: 10px;
+  .contenedor-envios {
+    width: 100%;
+    align-content: center;
   }
 }
 header {
