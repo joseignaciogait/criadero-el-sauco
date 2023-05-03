@@ -26,7 +26,18 @@ align-items: center;
     margin-top: 10px;
 }
 @media(max-width:845px){
+    .contenedor-envios{
+        display: flex;
+        flex-direction: column;
+        width: 25%;
 
+    }
+
+    .envios-internacionales{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        }
     p{
         padding:20px;
     }
@@ -57,19 +68,13 @@ align-items: center;
     .pais{
         padding: 10px;
     }
-    .provincia-estado{
-        padding: 10px;
-    }
-    
-    .nombre-y-apellido{
-        padding: 10px;
-    }
-    
-    .telefono{
-        padding:10px
-    }
-    .email{
-        padding: 10px;
-        padding-bottom: 10px;
+    .envios-internacionales{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        }
+    .contenedor-envios{
+        width: 100%;
+        align-content:center ;
     }
 }
