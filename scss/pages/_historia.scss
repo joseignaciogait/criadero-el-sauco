@@ -1,12 +1,16 @@
 
 .articulo-la-raza img{
     width: 500px;
-    padding: 10px;
 }
 
+.parrafo-el-criadero{
+    padding: 10px;
+}
+.parrafo-la-raza{
+    padding: 10px;
+}
 .articulo-el-criadero img{
     height:350px;
-    padding: 10px;
 }
 
 @media (max-width:845px){
@@ -16,6 +20,12 @@
 .foto-el-criadero {
     width: 50%;
     }
+.parrafo-el-criadero{
+    padding: 10px;
+}
+.parrafo-la-raza{
+    padding: 10px;
+}
 }
 
 @media (max-width: 565px){
